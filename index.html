@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WAF URL Scanner</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Web Application Firewall - URL Scanner</h2>
+    <form method="post">
+        <input type="text" name="url" placeholder="Enter URL to scan" required>
+        <div class="btn-group">
+            <button class="btn btn-check" type="submit">Scan</button>
+            <a class="btn btn-clear" href="/">Clear</a>
+        </div>
+    </form>
+    {% if result %}
+    <div class="result {% if 'Safe' in result %}safe{% else %}malicious{% endif %}">
+        {{ result }}
+    </div>
+    {% endif %}
+    <div class="feature-group">
+        <a href="/admin/blocked_ips" class="feature-btn blocked">View Blocked</a>
+        <a href="/admin/reset_logs" class="feature-btn reset">Reset Logs</a>
+    </div>
+</div>
+</body>
+</html>

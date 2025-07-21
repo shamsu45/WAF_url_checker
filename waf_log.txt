@@ -1,0 +1,9 @@
+2025-07-20 02:08:53.352801 - hff - Safe
+2025-07-20 02:09:06.869390 - redirect - Blocked
+2025-07-20 02:14:18.499412 - redirect - Blocked
+2025-07-20 21:01:09.047139 - http://clickme.evil.com/redirect?to=bank-login.html - Blocked
+2025-07-21 07:20:43.861913 - https://www.fotiapp1zbh.foo/#/page/user - Safe
+2025-07-21 07:20:52.822785 - http://malware.com/evil.js - Blocked
+2025-07-21 07:22:23.744215 - http://bit.ly/hack - Blocked
+2025-07-21 07:26:49.801131 - www.youtube.com - Safe
+2025-07-21 07:28:11.095631 - http://malware.com/evil.js - Blocked
