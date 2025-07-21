@@ -1,1 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e8f5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #eceaea;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #333;
+    text-align: center;
+}
+
+form input[type="text"] {
+    width: 90%;
+    padding: 12px 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+form input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-check {
+    background-color: #28a745;
+    color: rgb(238, 233, 233);
+}
+
+.btn-check:hover {
+    background-color: #218838;
+}
+
+.btn-clear {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-clear:hover {
+    background-color: #c82333;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.safe {
+    color: green;
+}
+
+.malicious {
+    color: red;
+}
+
+.feature-group {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.feature-btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: #007bff;
+    transition: background 0.2s ease;
+    text-align: center;
+}
+
+.feature-btn:hover {
+    background-color: #0056b3;
+}
+
+.feature-btn.blocked {
+    background-color: #dc3545;
+}
+
+.feature-btn.blocked:hover {
+    background-color: #b02a37;
+}
+
+.feature-btn.logs {
+    background-color: #17a2b8;
+}
+
+.feature-btn.logs:hover {
+    background-color: #117a8b;
+}
+
+.feature-btn.reset {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.feature-btn.reset:hover {
+    background-color: #e0a800;
+}
+
+.feature-btn.rate-limit {
+    background-color: #6f42c1;
+}
+
+.feature-btn.rate-limit:hover {
+    background-color: #5936a6;
+}
 
