@@ -8,6 +8,4 @@ WAF_URL_Scanner_Project
 │ └── style.css
 ├── waf_log.txt
 ├── README.md 
-└── WAF_Project_Report.pdf
-
-
+└── WAF_Project_Report.pdf
