@@ -3,7 +3,7 @@ import re
 import os
 import datetime
 
-app = Flask(__name__)
+app = Flask(_name_)
 
 LOG_FILE = "waf_log.txt"
 blocked_urls = []
@@ -44,5 +44,5 @@ def reset_logs():
     blocked_urls.clear()
     return "✅ Logs and blocked URLs have been reset."
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     app.run(debug=True)
